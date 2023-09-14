@@ -18,7 +18,7 @@ Before you can run the bot, make sure you have the following prerequisites insta
 1. Clone or download this repository to your local machine.
 
 ```bash
-git clone https://github.com/your-username/minecraft-bot.git
+git clone https://github.com/Pepperjack-svg/minecraft-bot.git
 ```
 
 2. Install the required Python packages.
