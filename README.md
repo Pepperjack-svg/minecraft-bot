@@ -24,7 +24,10 @@ git clone https://github.com/Pepperjack-svg/minecraft-bot.git
 2. Install the required Python packages.
 
 ```bash
-pip install configparser
+apt-get update
+apt-get install -y nodejs
+pip install -r requirements.txt
+
 ```
 
 3. Install the Mineflayer library for Node.js.
