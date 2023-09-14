@@ -31,16 +31,16 @@ npm install mineflayer
 The bot's behavior can be configured using the `config.ini` file. Here's an example configuration:
 
 [server]
-host = your_minecraft_server.com
-port = 25565
+- host = your_minecraft_server.com
+- port = 25565
 
 [bot]
 name = YourBotName
 
 [command]
-position = !position
-start = !start
-stop = !stop
+- position = !position
+- start = !start
+- stop = !stop
 
 
 ## Run the script:
