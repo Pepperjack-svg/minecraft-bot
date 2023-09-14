@@ -24,15 +24,12 @@ npm install mineflayer
 
 4. Create a configuration file named `config.ini` in the same directory as the script. Customize it with your Minecraft server details and bot settings. Use `config.ini.example` as a template.
 
-5. Run the script:
-   python main.py
+## Configuration
 
-   
 ## Configuration
 
 The bot's behavior can be configured using the `config.ini` file. Here's an example configuration:
 
-```ini
 [server]
 host = your_minecraft_server.com
 port = 25565
@@ -44,9 +41,29 @@ name = YourBotName
 position = !position
 start = !start
 stop = !stop
-'''
 
 
+## Run the script:
+   python main.py
+
+## Stopping the Bot
+To gracefully stop the bot, press Ctrl+C in the terminal where the script is running. The bot will clear its actions and disconnect from the server.   
+
+
+   
+## Troubleshooting
+If you encounter any issues or errors, please check the following:
+
+Ensure that you have installed all the required dependencies.
+Verify that your config.ini file is correctly configured.
+Check for any console output or error messages for clues on what went wrong.
+
+
+## Acknowledgments
+Thanks to the mineflayer library for making it easy to create Minecraft bots in Python.
+Feel free to contribute to and extend this project.
+
+Please note that you should replace placeholders with your specific details and customize the README.md further if needed. Additionally, include any licensing or attribution information as necessary for your project.
 
 
 
