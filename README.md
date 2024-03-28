@@ -64,7 +64,7 @@ stop = !stop
 To start the bot, run the following command in your terminal:
 
 ```bash
-python bot.py
+python main.py
 ```
 
 The bot will connect to the specified Minecraft server and listen for chat commands. It can perform actions like displaying its current position or moving forward and jumping when instructed.
