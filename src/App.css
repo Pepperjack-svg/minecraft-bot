@@ -1,0 +1,102 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #802e31, #f5a347);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Centering Vertically */
+}
+
+/* Main Container */
+.container {
+  max-width: 400px;
+  background: rgb(0, 0, 0);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px rgb(255, 255, 255);
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+}
+
+.container:hover {
+  transform: scale(1.05);
+}
+
+/* Title */
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+input {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  background: #1f1414;
+  font-size: 16px;
+  text-align: center;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  background: #140000;
+  border: 2px solid #000000;
+}
+
+/* Button Styling */
+button {
+  background: linear-gradient(135deg, #d40a2cc7, #e4c413);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+  width: 100%;
+  margin-top: 15px;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #ff5e62, #ff9966);
+  transform: scale(1.05);
+}
+
+/* Result Box */
+.result {
+  margin-top: 25px;
+  background: #fff5f7;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.result:hover {
+  transform: scale(1.03);
+}
+
+/* BMI Value */
+h2 {
+  font-size: 22px;
+  color: #ff5e62;
+  margin: 5px 0;
+}
+
+/* BMI Category */
+.category {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+}
